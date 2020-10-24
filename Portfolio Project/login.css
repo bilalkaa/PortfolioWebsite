@@ -1,0 +1,29 @@
+body{
+    background-image: url(banner1.jpg);
+    background-repeat: repeat;
+}
+/*Makes the background that image and repeats it.*/
+
+form{
+    text-align: center;
+    border: 8em;
+    padding: 2em;
+}
+/*Gives the form a border and pads it. Also aligns text to center.*/
+
+legend p{
+    color: rgb(255, 255, 255);
+}
+/*Makes the title of the page "login" white.*/
+
+
+#contact{
+    background-color: #bfffb9;
+    text-align: center;
+    border-top: solid 0.1em;
+}
+
+#contact p, #contact a{
+    display: inline-block;
+}
+/*Centers the contact ID as well as gives it a border and a background. Also makes text inline-block.*/

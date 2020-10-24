@@ -1,0 +1,193 @@
+#banner img{
+    width: 100%;
+    height: auto;
+}
+/*Gives the banner a width of 100% and makes the height auto adjust.*/
+
+body{
+    margin:0em 2em 2em 2em;
+}
+/*Gives the body a margin (not including the top).*/
+
+html{
+    scroll-behavior: smooth;
+}
+/*Makes the scroll smooth when something in the navbar is clicked.*/
+
+
+
+section{
+    padding: 3em 3em 3em 2em;
+    border-top: solid 0.1em;
+    
+}
+/*Pads each section by 3ems.*/
+
+section:nth-child(even){
+    background-color: rgb(255, 250, 221);
+}
+
+h1{
+    text-align: center;
+    font-size: large;
+    color:rgb(26, 26, 26);
+}
+/*Gives each h1, the properties of the above. This includes centering the text, making the text of size "large" and giving the 
+text a colour of dark grey.*/
+
+
+
+
+#about{
+    padding-bottom: 3em;
+}
+
+#about div{
+    padding-left: 3em;
+}
+/*Aligns the text in the div tag within the about ID to the left.*/
+
+.fullscreen{
+    width: 30%;
+    height:auto;
+    margin-left: 2em;
+    float:right;
+    box-shadow: inset 1em 0 1em -1em #297b7e;   
+}
+.phonefriendly{
+    width: 30%;
+    height:auto;
+    margin-left: 2em;
+    display: none;
+    text-align: center;
+    float: center;
+}
+/*Gives the aside the properties shown above.
+Namely, a size,*/
+
+@media only screen and (max-width: 500px)
+{
+    .fullscreen{
+        display: none;
+    }
+    .phonefriendly{
+        display: block;
+    }
+}
+
+
+#about aside figure{
+    margin: 2em;
+    font-style:italic;
+}
+#about aside figure img{
+    width:12em;
+    height: auto;
+}
+#about figcaption{
+    font-size: smaller;
+    font-style: italic;
+}/*Gives styles, sizes and margins to the figure that contains my picture and a caption.*/
+
+#about p, #about ol,#about h3{
+    text-align: right;
+}
+/*Aligns the text to the right hand side.*/
+
+
+
+
+#skills{
+    text-align:center;
+}
+/*Aligns all the text within the skills ID to center.*/
+
+#skills h4{
+    text-decoration: underline;
+}
+/*Underlines the header.*/
+
+
+
+
+#education p{
+    text-align: center;
+}
+/*Aligns the text in the paragraph tag within the education ID.*/
+
+#education h3{
+    background-color: rgb(249, 255, 168);
+}
+#education th{
+    background-color: rgb(252, 255, 215);
+}
+/*Gives a background colour to the header of the table and the table headers.*/
+
+
+
+
+#experience table{
+    border: solid 0.5pt rgb(167, 167, 167);
+    border-spacing: 4em;
+    margin: 1em auto;
+}
+/*Gives the table that is in the "experience" ID a solid border with a light grey color. It also adds border spacing.*/
+
+#experience th{
+    background-color: rgb(228, 228, 228);
+}
+/*Gives a background color to "th"*/
+
+#experience td{
+    background-color: white;
+}
+/*Gives a background colour to "td"*/
+
+#experience td, #experience th{
+    text-align: center;
+    vertical-align: middle;
+    border: 0.7pt solid grey;
+}
+/*Aligns the text to center, give's a border and a colour and aligns everything to center.*/
+
+
+
+
+
+#portfolio table{
+    border: solid 1pt rgb(167, 167, 167);
+    border-spacing: 4em;
+    margin: 1em auto;
+}
+/*Gives the table in the "portfolio" section's table a solid border with a thickness of 1pt and a grey colour.
+It also gives it some border spacing of 4em and a margin of 1em.*/
+
+#portfolio th{  
+    background-color: rgb(255, 247, 129);
+}
+/*Gives a background color to "th"*/
+
+#portfolio td{
+    background-color: rgb(250, 255, 210);
+}
+/*Gives a background color to "td"*/
+
+#portfolio td, #portfolio th{
+    text-align: center;
+    vertical-align: middle;
+    border: 1pt solid grey;
+}
+/*Aligns the text to center, give's a border and a colour and aligns everything to center.*/
+
+
+
+
+#contact{
+    background-color: #bfffb9;
+    text-align: center;
+    border-top: solid 0.1em;
+}
+#contact p, #contact a{
+    display: inline-block;
+}
+/*Centers the contact ID as well as gives it a border and a background. Also makes text inline-block.*/
